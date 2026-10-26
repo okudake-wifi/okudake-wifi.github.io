@@ -131,7 +131,8 @@
    "asp": "vc",
    "program_id": "2137396",
    "url": "",
-   "beacon": ""
+   "beacon": "",
+   "site_id": "3785824"
   }
  ],
  "ads_extra_html": "<p>また、バリューコマースのアフィリエイトプログラムに参加しています。記事内の「PR」と書かれた枠のリンクから申し込まれると、運営者に紹介料が入ることがあります。紹介料の有無で、料金や条件の書き方を変えることはありません。</p>",
@@ -142,5 +143,6 @@
   "softbank-air-osoi-jikantai",
   "homerouter-hikari-chigai",
   "softbank-air-ryokin"
- ]
+ ],
+ "_vc_note": "VC サイト 3785824（2026-10-26 登録・審査中）。SoftBank Air 2137396 は 2026-10-26 申請・提携待ち。承認後 moshimo-approval-check 12 が vc_ads に移す"
 }
