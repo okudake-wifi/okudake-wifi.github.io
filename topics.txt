@@ -1,0 +1,33 @@
+# 自動投稿の記事ネタ（上から順に1本ずつ書く。書いたら行頭に「済 」を付ける）カテゴリ: はじめて / SoftBank Air / 比べる / 引っ越し・賃貸 / 動画・配信
+# 題名には検索の3語（Googleの検索候補、raw/keywords/suggest_2026-10-26_wifi.tsv）をそのまま入れる。slug は右端。数字は facts/ の公式確認済みのものだけ
+済 ソフトバンクエアーの料金は月いくら？端末代・割引・12月からの値上げを表で | SoftBank Air | softbank-air-ryokin
+済 ソフトバンクエアーが遅い時間帯と理由 | SoftBank Air | softbank-air-osoi-jikantai
+済 工事不要Wi-Fiのデメリット｜ソフトバンクエアーが向かない人5つ | はじめて | softbank-air-mukanai-hito
+済 ソフトバンクエアーの解約金は？契約期間なしでも残る端末代 | SoftBank Air | softbank-air-kaiyaku
+済 ソフトバンクエアーの置き場所｜電波が入りやすい場所の考え方 | SoftBank Air | softbank-air-okibasho
+済 ソフトバンクエアーの住所変更｜引っ越しの手続き | 引っ越し・賃貸 | softbank-air-jusho-henko
+済 ホームルーターを契約住所以外で使える？ | 引っ越し・賃貸 | homerouter-keiyaku-jusho-igai
+済 ソフトバンクエアーはいつ届く？申し込みから使えるまで | SoftBank Air | softbank-air-itsu-todoku
+済 ホームルーターのクーリングオフ｜8日以内の初期契約解除 | SoftBank Air | homerouter-cooling-off
+済 ソフトバンクエアーでオンラインゲームはできる？ | 動画・配信 | softbank-air-online-game
+済 置くだけWi-Fiのおすすめ｜工事不要の選び方は3つの質問で | はじめて | okudake-wifi-erabikata
+済 ホームルーターを比較｜3社の料金と住所のルール | 比べる | homerouter-hikaku
+済 ホームルーターと光回線の違い｜工事・速度・料金を表で | 比べる | homerouter-hikari-chigai
+済 ホームルーターのおすすめ｜一人暮らしで選ぶ時の3つの目安 | 引っ越し・賃貸 | homerouter-hitorigurashi
+済 アニメ配信に必要な速度｜ホームルーターで見られる？ | 動画・配信 | anime-haishin-sokudo
+ソフトバンクエアーの繋がらない時｜ランプの色で分かること | SoftBank Air | softbank-air-tsunagaranai
+ソフトバンクエアーの通信障害をリアルタイムで確かめる方法 | SoftBank Air | softbank-air-tsushin-shogai
+ソフトバンクエアーのエリア確認｜住所を入れて分かること | はじめて | softbank-air-area-kakunin
+ソフトバンクエアーの赤ランプ｜点いた時に確かめる順番 | SoftBank Air | softbank-air-aka-lamp
+ホームルーターの置き場所おすすめ｜窓・高さ・家電との距離 | はじめて | homerouter-okibasho
+ソフトバンクエアーのおうち割｜スマホとのセットで安くなる条件 | SoftBank Air | softbank-air-ouchiwari
+ホームルーターとWi-Fiルーターの違い | はじめて | homerouter-wifi-router-chigai
+置くだけWi-Fiの速度｜動画・会議・ゲームの目安 | 動画・配信 | okudake-wifi-sokudo
+ホームルーターの一戸建て｜2階まで届く？中継機とメッシュWi-Fi | はじめて | homerouter-ikkodate
+賃貸で工事できない時のネットの始め方 | 引っ越し・賃貸 | chintai-koji-dekinai
+引っ越しのネットは何日前に申し込む？ | 引っ越し・賃貸 | hikkoshi-net-nannichimae
+ソフトバンクエアーのレンタルと購入はどっちがいい？ | SoftBank Air | softbank-air-rental-konyu
+ホームルーターの再起動の頻度｜止まった時の直し方 | はじめて | homerouter-saikido
+在宅ワークはホームルーターで足りる？会議に必要な速度 | 動画・配信 | homerouter-zaitaku
+ソフトバンクエアーのWi-Fi 7｜Airターミナル6で変わること | SoftBank Air | softbank-air-wifi7
+推しのライブ配信を止めずに見る家のネットの整え方 | 動画・配信 | oshi-live-haishin-net
