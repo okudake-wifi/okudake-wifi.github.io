@@ -1,4 +1,5 @@
 # 自動投稿の記事ネタ（上から順に1本ずつ書く。書いたら行頭に「済 」を付ける）カテゴリ: はじめて / SoftBank Air / 比べる / 引っ越し・賃貸 / 動画・配信
+# 2026-10-27 ペルソナ決定（facts/PERSONA.md: 読者48歳の子ども・使うのは75歳一人暮らしの母）。新しいネタは「実家・見守り」を2本に1本以上
 # 題名には検索の3語（Googleの検索候補、raw/keywords/suggest_2026-10-26_wifi.tsv）をそのまま入れる。slug は右端。数字は facts/ の公式確認済みのものだけ
 済 ソフトバンクエアーの料金は月いくら？端末代・割引・12月からの値上げを表で | SoftBank Air | softbank-air-ryokin
 済 ソフトバンクエアーが遅い時間帯と理由 | SoftBank Air | softbank-air-osoi-jikantai
@@ -15,9 +16,21 @@
 済 ホームルーターと光回線の違い｜工事・速度・料金を表で | 比べる | homerouter-hikari-chigai
 済 ホームルーターのおすすめ｜一人暮らしで選ぶ時の3つの目安 | 引っ越し・賃貸 | homerouter-hitorigurashi
 済 アニメ配信に必要な速度｜ホームルーターで見られる？ | 動画・配信 | anime-haishin-sokudo
+済 実家のWi-Fiおすすめ｜工事なしで親の家にネットを入れる3ステップ | 実家・見守り | jikka-wifi-osusume
+済 Wi-Fiのシニア割｜ソフトバンクエアーの60歳以上向け割引の条件と月額 | 実家・見守り | softbank-air-60sai-wari
+済 高齢者のWi-Fiおすすめ｜一人暮らしのお母さまが困らない選び方 | 実家・見守り | koureisha-wifi-osusume
+済 見守りカメラと高齢者のWi-Fi｜実家に置く前に確かめたい5つのこと | 実家・見守り | mimamori-camera-koureisha-wifi
+テレビ電話と高齢者のWi-Fi｜実家の母とLINEのビデオ通話を始める | 実家・見守り | terebi-denwa-koureisha-wifi
+実家のWi-Fiが遅い時｜離れていても電話で確かめられること | 実家・見守り | jikka-wifi-osoi
 ソフトバンクエアーの繋がらない時｜ランプの色で分かること | SoftBank Air | softbank-air-tsunagaranai
+実家にWi-Fiがない時｜帰省した日に一緒にやる段取り | 実家・見守り | jikka-wifi-nai
+親の名義でWi-Fiを契約する時の準備｜本人確認書類と支払い方法 | 実家・見守り | oya-meigi-wifi-keiyaku
 ソフトバンクエアーの通信障害をリアルタイムで確かめる方法 | SoftBank Air | softbank-air-tsushin-shogai
+高齢者の見守りカメラはWi-Fiなしでも使える？選び方の違い | 実家・見守り | mimamori-camera-wifi-nashi
+実家の固定電話とWi-Fi｜おうちのでんわセットの考え方 | 実家・見守り | jikka-koteidenwa-wifi
 ソフトバンクエアーのエリア確認｜住所を入れて分かること | はじめて | softbank-air-area-kakunin
+高齢の親にタブレットを渡す前に｜Wi-Fiと大きな画面の準備 | 実家・見守り | koureisha-tablet-wifi
+実家のWi-Fiが繋がらない時｜ランプの色を電話で聞く方法 | 実家・見守り | jikka-wifi-tsunagaranai
 ソフトバンクエアーの赤ランプ｜点いた時に確かめる順番 | SoftBank Air | softbank-air-aka-lamp
 ホームルーターの置き場所おすすめ｜窓・高さ・家電との距離 | はじめて | homerouter-okibasho
 ソフトバンクエアーのおうち割｜スマホとのセットで安くなる条件 | SoftBank Air | softbank-air-ouchiwari
