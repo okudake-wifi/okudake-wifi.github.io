@@ -187,6 +187,37 @@ html[data-size="l"] article table,html[data-size="xl"] article table{font-size:1
 article{counter-reset:wf}article h2{counter-increment:wf}article h2::before{content:"その" counter(wf) "　";color:#d98a06}
 article h2.ax-sum::before{content:"さいごに　"}
 article ul li::marker{content:"◎ ";color:#0b6b80}
+
+/* category-base: 2026-10-27 カテゴリページの共通部分 */
+.cx-page .cards{counter-reset:none}
+.cx-page .card{position:relative;animation:cxin .5s both;animation-delay:calc(var(--i,0)*60ms)}
+@keyframes cxin{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.cx-page .card{animation:none}}
+.cx-head{position:relative;margin:4px 0 6px}.cx-head h1{margin:0}
+.cx-intro{margin:8px 0 0}
+.cx-meter{display:flex;align-items:center;gap:10px;margin:12px 0 0;font-size:13px}.cx-meter span{white-space:nowrap}.cx-meter b{font-size:1.25em}
+.cx-meter i{position:relative;flex:1;height:8px;border-radius:99px;overflow:hidden;max-width:240px}
+.cx-meter i::after{content:"";position:absolute;left:0;top:0;bottom:0;background:var(--cxm,#888);width:var(--w,0);transition:width .9s ease}
+.cx-sort{display:inline-flex;gap:4px;margin:12px 0 0}.cx-sort button{font:inherit;font-size:13px;padding:4px 12px;cursor:pointer}
+.cx-badge{position:absolute;top:10px;right:10px;font-size:12px;font-weight:700;padding:2px 10px;z-index:2}
+.cx-others{margin:18px 0 8px}.cx-others strong{display:block;font-size:13px;margin-bottom:8px}.cx-others div{display:flex;flex-wrap:wrap;gap:8px}
+.cx-others a{text-decoration:none;font-size:14px;padding:5px 12px}.cx-others small{margin-left:6px;opacity:.7}
+
+/* category: big-text (2026-10-27) */
+.cx-home{background:#fffdf8;border:2px solid #e5d9c3;border-left:10px solid #0b6b80;border-radius:14px;padding:18px 20px}
+.cx-eye{font-size:15px;font-weight:700;color:#d98a06}
+.cx-home h1{font-size:clamp(28px,4.2vw,36px);color:#2b2620}.cx-home h1 small{font-size:.55em;color:#4f4a42;margin-left:4px}
+.cx-home .cx-intro{font-size:18px;line-height:1.9}
+.cx-page{--cxm:#0b6b80}.cx-meter{font-size:16px}.cx-meter i{background:#e5d9c3;height:12px}.cx-meter b{color:#0b6b80}
+.cx-sort button{font-size:16px;font-weight:700;padding:8px 18px;background:#fffdf8;color:#0b6b80;border:2px solid #0b6b80;border-radius:99px}.cx-sort button.on{background:#0b6b80;color:#fff}
+.cx-head .ax-size{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:12px 0 0;font-size:15px;color:#4f4a42}
+.cx-head .ax-size button{font:inherit;font-weight:700;font-size:15px;padding:6px 16px;border-radius:99px;border:2px solid #0b6b80;background:#fffdf8;color:#0b6b80;cursor:pointer}.cx-head .ax-size button.on{background:#0b6b80;color:#fff}
+html[data-size="l"] .cx-page{font-size:19px}html[data-size="l"] .cx-page .card h2{font-size:19px}html[data-size="l"] .cx-page .card p{font-size:16px}
+html[data-size="xl"] .cx-page .card h2{font-size:22px}html[data-size="xl"] .cx-page .card p{font-size:18px}html[data-size="xl"] .cx-home .cx-intro{font-size:22px}
+.cx-page .cards{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.cx-page .card::before{content:"その" attr(data-no);position:absolute;top:10px;left:10px;z-index:2;background:#d98a06;color:#fff;font-weight:700;font-size:14px;border-radius:99px;padding:1px 12px}
+.cx-badge{background:#0b6b80;color:#fff;border-radius:99px;font-size:14px}
+.cx-others a{background:#fffdf8;border:2px solid #0b6b80;border-radius:12px;color:#0b6b80;font-weight:700;font-size:16px;padding:8px 16px}.cx-others strong{font-size:16px;color:#2b2620}
 </style><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHWF25C1RB"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-EHWF25C1RB');</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ソフトバンクエアーはいつ届く？申し込みから使えるまでの流れ", "description": "ソフトバンクエアーはいつ届くかを、申込方法ごとにまとめました。店頭なら最短当日、Web・電話なら支払い方法の登録後に最短2日程度。90日・30日の取り消しの決まり、料金がかかり始める受け取り8日後、届いた日の設定手順まで分かります。", "datePublished": "2026-10-26", "image": "https://okudake-wifi.github.io/img/articles/softbank-air-itsu-todoku.jpg", "author": {"@type": "Person", "name": "運営者", "url": "https://okudake-wifi.github.io/about.html"}, "publisher": {"@type": "Organization", "name": "置くだけWi-Fi・工事不要の選び方"}, "mainEntityOfPage": "https://okudake-wifi.github.io/articles/softbank-air-itsu-todoku.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://okudake-wifi.github.io/index.html"}, {"@type": "ListItem", "position": 2, "name": "SoftBank Air", "item": "https://okudake-wifi.github.io/category/softbank-air.html"}, {"@type": "ListItem", "position": 3, "name": "ソフトバンクエアーはいつ届く？申し込みから使えるまでの流れ", "item": "https://okudake-wifi.github.io/articles/softbank-air-itsu-todoku.html"}]}</script></head><body>
 <header><div class="wrap"><div class="top"><a class="logo" href="../index.html">置くだけWi-Fi<span>・工事不要</span>の選び方</a><span class="tagline">実家のWi-Fiを工事なしで</span></div>
@@ -231,6 +262,8 @@ article ul li::marker{content:"◎ ";color:#0b6b80}
 <ul><li>ショップは最短当日（在庫による）、Web・電話は支払い方法の登録後に最短2日程度</li><li>申込から90日以内に登録、発送から30日以内に受け取らないと取り消し</li><li>料金がかかり始めるのは受け取りの8日後。12月利用分から基本料金は月5,698円</li><li>届いたら電源をさしてランプ5つが緑、QRコードを読めば使い始められる</li></ul>
 <p>まずは、使い始めたい日をカレンダーに書いてみませんか？その日に間に合わせるなら、あなたに合うのはショップとWebのどちらでしょうか。</p><div class="next"><div class="next-h">今日できる次の一歩</div><p>まずは公式のエリア確認に、ご実家の住所を入れてみませんか。1分ほどで、置くだけWi-Fiが使える場所かが分かります。</p><p>お母さまと、まず何をしたいですか？ビデオ通話、見守り、テレビで動画。いちばんを1つ決めると、選ぶ1台が見えてきます。</p><p>最後まで読んでくださり、ありがとうございました。</p></div><script>(function(C){var R=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
 var art=document.querySelector("article");if(!art)return;
+/* 読んだ記事を覚えておく（カテゴリページの「読んだ」印に使う。この端末の中だけ。同じ github.io の別サイトと混ざらないよう、パス全体で覚える） */
+try{var RK="ax-read",RL=JSON.parse(localStorage.getItem(RK)||"[]"),me=location.pathname;if(RL.indexOf(me)<0){RL.push(me);localStorage.setItem(RK,JSON.stringify(RL.slice(-300)))}}catch(e){}
 /* 読むのにかかる時間（1 分 500 字で計算） */
 var n=(art.innerText||"").replace(/\s/g,"").length,m=Math.max(1,Math.round(n/500)),d=art.querySelector(".date");
 if(d){var t=document.createElement("span");t.className="ax-time";t.textContent=C.time.replace("{m}",m);d.after(t)}
