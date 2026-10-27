@@ -116,7 +116,8 @@
    "#5eead4",
    "#f59e0b",
    "#fcd34d"
-  ]
+  ],
+  "style": "frame"
  },
  "images": {
   "motif": "shapes",
