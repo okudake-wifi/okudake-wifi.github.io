@@ -150,8 +150,8 @@
    "site_id": "3785824"
   }
  ],
- "ads_extra_html": "<p>また、バリューコマースのアフィリエイトプログラムに参加しています。記事内の「PR」と書かれた枠のリンクから申し込まれると、運営者に紹介料が入ることがあります。紹介料の有無で、料金や条件の書き方を変えることはありません。</p>",
- "asp_names": "・バリューコマース",
+ "ads_extra_html": "<p>また、バリューコマースと A8.net のアフィリエイトプログラムに参加しています。記事内の「PR」と書かれた枠のリンクから申し込まれると、運営者に紹介料が入ることがあります。紹介料の有無で、料金や条件の書き方を変えることはありません。</p>",
+ "asp_names": "・バリューコマース\n・A8.net",
  "featured": [
   "jikka-wifi-osusume",
   "koureisha-wifi-osusume",
@@ -173,5 +173,37 @@
   "引っ越し・賃貸": "引っ越しの住所変更、契約した住所以外で使えるか、一人暮らしの選び方がわかります。",
   "比べる": "ホームルーターと光回線、ホームルーターどうしを、表で比べています。"
  },
- "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読みました\", \"pre\": \"\", \"size\": true});</script>"
+ "category_js": "<script>(function(C){var pg=document.querySelector(\".cx-page\");if(!pg)return;\nvar box=pg.querySelector(\".cards\"),cards=[].slice.call(box.querySelectorAll(\".card\"));\nfunction num(){[].forEach.call(box.querySelectorAll(\".card\"),function(a,i){a.setAttribute(\"data-no\",(C.pre||\"\")+(\"0\"+(i+1)).slice(-2))})}\n/* 読んだ記事に印 */\nvar RL=[];try{RL=JSON.parse(localStorage.getItem(\"ax-read\")||\"[]\")}catch(e){}\nvar m=0;cards.forEach(function(a,i){a.style.setProperty(\"--i\",i);if(RL.indexOf(new URL(a.href,location.href).pathname)>=0){a.classList.add(\"cx-read\");m++;var b=document.createElement(\"span\");b.className=\"cx-badge\";b.textContent=C.read;a.appendChild(b)}});\nnum();\nvar mt=pg.querySelector(\".cx-meter\");if(mt){mt.querySelector(\"b\").textContent=m;var i=mt.querySelector(\"i\");if(i)setTimeout(function(){i.style.setProperty(\"--w\",(cards.length?m/cards.length*100:0)+\"%\")},200)}\n/* 新しい順・古い順 */\nvar s=pg.querySelector(\".cx-sort\");if(s)s.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(!b||b.classList.contains(\"on\"))return;\n [].forEach.call(s.querySelectorAll(\"button\"),function(x){x.classList.toggle(\"on\",x==b)});var arr=cards.slice();if(b.getAttribute(\"data-o\")==\"old\")arr.reverse();arr.forEach(function(a){box.appendChild(a)});num()});\n/* ほかのカテゴリは一覧のあとへ */\nvar o=pg.querySelector(\".cx-others\");if(o){if(!o.querySelector(\"a\"))o.remove();else box.after(o)}\n/* 文字の大きさ（記事ページと同じ設定を使う） */\nif(C.size){var k=\"ax-size\",cur=\"\";try{cur=localStorage.getItem(k)||\"\"}catch(e){}\n var w=document.createElement(\"div\");w.className=\"ax-size\";w.innerHTML='<span>文字の大きさ</span><button data-s=\"\">ふつう</button><button data-s=\"l\">大</button><button data-s=\"xl\">特大</button>';\n function set(v){document.documentElement.setAttribute(\"data-size\",v);[].forEach.call(w.querySelectorAll(\"button\"),function(b){b.classList.toggle(\"on\",b.getAttribute(\"data-s\")==v)});try{localStorage.setItem(k,v)}catch(e){}}\n w.addEventListener(\"click\",function(e){var b=e.target.closest(\"button\");if(b)set(b.getAttribute(\"data-s\"))});var h=pg.querySelector(\".cx-head\");h&&h.appendChild(w);set(cur)}\n})({\"read\": \"読みました\", \"pre\": \"\", \"size\": true});</script>",
+ "a8_ads": [
+  {
+   "name": "SoftBank Air（GMOとくとくBB 窓口）",
+   "note": "コンセントにさすだけの置くだけWi-Fi。GMOとくとくBB経由の申し込み窓口",
+   "btn": "公式サイトを見る",
+   "cats": [
+    "SoftBank Air",
+    "はじめて",
+    "実家・見守り",
+    "引っ越し・賃貸",
+    "動画・配信",
+    "比べる"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BGERE+AINUX6+50+744W5U",
+   "beacon": "https://www18.a8.net/0.gif?a8mat=4BGERE+AINUX6+50+744W5U"
+  },
+  {
+   "name": "とくとくBB ホームWi-Fi",
+   "note": "工事不要のホームルーター。SoftBank Air と比べる 2 本目の候補",
+   "btn": "公式サイトを見る",
+   "cats": [
+    "はじめて",
+    "実家・見守り",
+    "引っ越し・賃貸",
+    "比べる"
+   ],
+   "asp": "a8",
+   "url": "https://px.a8.net/svt/ejp?a8mat=4BGERE+AJUQ4Q+50+7LVLZM",
+   "beacon": "https://www12.a8.net/0.gif?a8mat=4BGERE+AJUQ4Q+50+7LVLZM"
+  }
+ ]
 }
