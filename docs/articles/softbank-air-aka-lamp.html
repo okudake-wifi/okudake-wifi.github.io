@@ -25,7 +25,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -39,6 +39,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -66,7 +67,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -234,6 +235,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>Airターミナル5／6のランプは5つです。公式のよくあるご質問では、名前は Status（ステータス）／5G/4G／SIM（シム）／Wi-Fi／Power（パワー）で、正常なら、電源を入れてしばらくすると5つすべてが点灯します。赤になりうるのは、このうち次の3つです。</p>
 <div class="tbl"><table><tr><th>赤いランプ</th><th>公式FAQでの意味</th><th>最初にやること</th></tr><tr><td>Power</td><td>機器故障の可能性。ただし Status が緑の点滅と同時なら読み込み中</td><td>数分待つ。変わらなければ窓口へ</td></tr><tr><td>5G/4G</td><td>赤の点灯＝圏外</td><td>電波のよい場所へ移し、電源アダプタを抜き差し</td></tr><tr><td>SIM</td><td>赤の点灯＝SIMカードを認識できない</td><td>SIMカードの抜き挿し、電源アダプタの抜き差し</td></tr></table></div>
 <p>「どれが赤いかが分からない」ときは、ランプの横の英語の文字を、上から順に読んでみてください。<strong>同じ「赤」でも、場所によって対処がまったく違う</strong>のが、いちばんのポイントです。</p>
+<figure class="fig"><img src="../img/fig/softbank-air-aka-lamp-1.png" alt="説明用の図：Power・5G/4G・SIMのどれが赤いかで、意味と最初にやることが分かれます" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>Power・5G/4G・SIMのどれが赤いかで、意味と最初にやることが分かれます</figcaption></figure>
 <h2 id="s2">Powerが赤く点いている時｜まず「読み込み中」かを見る</h2>
 <p>Power の赤を見ると、「故障では？」と心配になります。ただ、公式のよくあるご質問には、見分け方が書かれています。</p>
 <ul><li><strong>Status が緑の点滅で、Power が赤の点灯</strong>なら、ファーム（機器の中の仕組み）を読み込んでいる途中です。数分待つ、と公式にあります</li><li>公式の注記では、<strong>Power と Status が緑に点灯するまでは、インターネットは使えません</strong>。つまり、電源を入れた直後は赤でも、ふつうの動きです</li><li>数分待っても Power の赤が変わらず、Status も緑に変わらない場合は、機器故障の可能性があるため、連絡先窓口へ、というのが公式の案内です</li></ul>
@@ -251,6 +253,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>どの赤でも、基本の順番は変わりません。公式のよくあるご質問でも、電源の入れ直しとSIMカードの抜き挿しで改善する可能性がある、とされています。</p>
 <ol><li><strong>数分待つ</strong>（Status が緑の点滅なら、起動中や読み込み中です）</li><li><strong>窓際に置き場所を変える</strong>（5G/4G が赤のとき）</li><li><strong>電源アダプタを抜いて、少し待ってから差し直す</strong></li><li><strong>SIMカードを抜き挿しする</strong>（電源アダプタを抜いた状態で）</li></ol>
 <p>「会社の昼休みに、短い時間で確かめたい」という声もよく聞きます。順番が決まっていれば、5分もかからず見当がつきます。ご実家のお母さまが使っている場合は、電話で頼むのは1と3までにして、SIMの抜き挿しは帰省の日にあなたがやる、と分けておくと安全です。電話での聞き方は、<a href="jikka-wifi-tsunagaranai.html">実家のWi-Fiが繋がらない時</a>にまとめています。</p>
+<figure class="fig"><img src="../img/fig/softbank-air-aka-lamp-2.png" alt="説明用の図：4つの順番のうち、お母さまに電話で頼むのは1と3まで。SIMの抜き挿しは帰省の日にあなたがやります" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>4つの順番のうち、お母さまに電話で頼むのは1と3まで。SIMの抜き挿しは帰省の日にあなたがやります</figcaption></figure>
 <h2 id="s6">向かない人・注意点</h2>
 <p>この記事の方法は、<strong>赤ランプの意味を知って、自分で確かめたい人</strong>向けです。次のような人は、無理に自分で直さず、公式の窓口に相談するほうが安心です。</p>
 <ul><li>数分待ち、電源の入れ直しとSIMの抜き挿しをしても、Power や 5G/4G の赤が変わらない人。公式FAQの案内でも、Power の赤は機器故障の可能性とされています</li><li>小さい部品を扱うのが不安な人、手元が暗い場所でしか作業できない人</li><li>引っ越し直後で、契約住所と置いている場所が違う人。ソフトバンクエアーは契約住所以外での利用が認められていないため、場所の手続きから確かめます（重要事項説明書）</li></ul>

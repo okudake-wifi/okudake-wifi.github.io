@@ -25,7 +25,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -39,6 +39,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -66,7 +67,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -248,6 +249,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <h2 id="s4">帰省した日の段取り｜着いてから帰るまでの順番</h2>
 <p>当日は、次の順番で進めると、お母さまが覚えることは少なくて済みます。</p>
 <ol><li><strong>料金の表を一緒に見る</strong>：決めるのはお母さまです。あなたは「毎月いくら」「12月から上がる」「やめる時の解除料はないけれど、端末代の残りはある」を、表を指でさしながら伝えます</li><li><strong>（Aの場合）一緒にショップへ行く</strong>：申し込みと受け取りまで。お母さまの本人確認書類と支払い方法を持って出かけます</li><li><strong>置き場所を決める</strong>：公式のよくある質問では、窓際で床から30cm〜80cmくらいの高さが適していると案内されています。直射日光が当たる所、棚の中、水槽の近くは避けます。お母さまがふだん過ごす部屋の近くから探すと、使う場所にも電波が届きやすくなります</li><li><strong>電源をさして、ランプを見る</strong>：公式の流れでは、ランプが5つとも緑になれば配線完了です。Airターミナル6では、5G/4Gのランプの青は5Gでつながっている時の色で、これも正常です</li><li><strong>同梱のQRコードを、お母さまのスマホで読む</strong>：Wi-Fiの設定はここで1回だけ。お母さまの指で読んでもらうと、「自分でつないだ」という手ごたえが残ります</li><li><strong>使いたいことを、その場で1つ試す</strong>：LINEのビデオ通話なら、あなたが別の部屋に行ってかけ合ってみます。手順は<a href="terebi-denwa-koureisha-wifi.html">テレビ電話と高齢者のWi-Fi</a>で紹介しています</li><li><strong>調子のよいときのランプを写真に撮る</strong>：あなたのスマホに残しておくと、あとで電話で「この写真と同じ？」と比べられます</li></ol>
+<figure class="fig"><img src="../img/fig/jikka-wifi-nai-1.png" alt="説明用の図：着いてから帰るまでの7つの順番。2はショップで受け取るAの場合だけです" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>着いてから帰るまでの7つの順番。2はショップで受け取るAの場合だけです</figcaption></figure>
 <p>置き場所の考え方は<a href="softbank-air-okibasho.html">ソフトバンクエアーの置き場所</a>もあわせてどうぞ。窓際にコンセントが届かない時は、延長コードがあると選べる場所が広がります。</p>
 <div class="shop"><div class="shop-name">延長コードを探す</div><a class="btn amz" rel="nofollow sponsored noopener" target="_blank" href="https://www.amazon.co.jp/s?k=%E5%BB%B6%E9%95%B7%E3%82%B3%E3%83%BC%E3%83%89&amp;tag=masabee-wifi-22">Amazonで見る</a><a class="btn rkt" rel="nofollow sponsored noopener" target="_blank" href="https://hb.afl.rakuten.co.jp/hgc/151a9587.4904a96c.151a9588.d0d13240/_RTLink155224/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E5%25BB%25B6%25E9%2595%25B7%25E3%2582%25B3%25E3%2583%25BC%25E3%2583%2589%2F">楽天で見る</a></div>
 <h2 id="s5">帰る前に残しておくこと｜受け取りから8日のあいだ</h2>

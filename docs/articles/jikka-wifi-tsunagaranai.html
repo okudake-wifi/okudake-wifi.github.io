@@ -25,7 +25,7 @@ header{border-bottom:1px solid var(--line);background:var(--card)}
 .sec-h{font-size:20px;margin:40px 0 4px;padding-bottom:8px;border-bottom:3px solid var(--accent);display:flex;justify-content:space-between;align-items:baseline}
 .sec-h a{font-size:13px;font-weight:400}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:16px 0}
-.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1200/630;object-fit:cover;border-radius:12px 12px 0 0}
+.thumb{display:block;width:calc(100% + 32px);max-width:none;margin:-16px -16px 12px;aspect-ratio:1024/572;object-fit:cover;border-radius:12px 12px 0 0}
 .card{overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:var(--fg);display:block;transition:transform .15s}
 .card:hover{border-color:var(--accent);transform:translateY(-2px)}.card h2,.card h3{font-size:16px;line-height:1.5;margin:6px 0}.card p{font-size:13px;color:var(--muted);margin:0}
 .tag{display:inline-block;font-size:12px;padding:1px 10px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none}
@@ -39,6 +39,7 @@ article h3{font-size:18px;margin-top:28px;border-bottom:2px solid var(--line);pa
 .lead{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:14px;margin:16px 0}
 .lead strong{display:block;color:var(--accent)}
 .toc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:10px;padding:12px 20px;font-size:14px;margin:20px 0}
+.fig{margin:22px 0;text-align:center}.fig img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(127,127,127,.25)}.fig figcaption{font-size:.9em;color:var(--muted,#666);margin-top:8px;line-height:1.6}.fig-tag{display:inline-block;font-size:.78em;border:1px solid currentColor;border-radius:4px;padding:0 6px;margin-right:6px;vertical-align:1px}
 .note{background:var(--card);border-left:4px solid var(--accent2);padding:10px 14px;border-radius:6px;margin:16px 0}
 .tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left}th{background:var(--soft)}
 code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:14px}
@@ -66,7 +67,7 @@ aside .box-h{font-weight:800;font-size:15px;margin:-4px 0 10px;padding-bottom:6p
 aside .sticky{position:sticky;top:16px}
 aside .picks{margin:0 0 20px}
 .mini{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--fg);padding:8px 0;border-top:1px solid var(--line);line-height:1.5}
-.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1200/630;object-fit:cover;border-radius:6px}
+.mini:first-of-type{border-top:0}.mini img{flex:0 0 96px;width:96px;aspect-ratio:1024/572;object-fit:cover;border-radius:6px}
 .mini b{display:inline-block;flex:0 0 22px;height:22px;border-radius:50%;background:var(--accent2);color:#fff;font-size:12px;text-align:center;line-height:22px}
 .catlist a{display:flex;justify-content:space-between;text-decoration:none;color:var(--fg);padding:6px 0;border-top:1px solid var(--line)}.catlist a:first-of-type{border-top:0}
 .catlist small{color:var(--muted)}
@@ -234,6 +235,7 @@ article p strong,article li strong,article td strong{font-weight:800;color:var(-
 <p>お母さまは、「Wi-Fiが繋がらない」と感じていても、何が起きているかを言葉にするのは難しいものです。あなたが質問の順番を持っていると、お母さまは「はい」「いいえ」「緑」と答えるだけで済みます。</p>
 <ol><li><strong>「Wi-Fiの箱（Airターミナル）のランプは、点いている？」</strong> 何も点いていなければ、電源の線が抜けていないかを見てもらいます</li><li><strong>「ランプの横に英語の文字があるから、順番に、文字と色を読んでくれる？」</strong> 公式FAQでは、Airターミナル5／6のランプは Status（ステータス）／5G/4G／SIM（シム）／Wi-Fi／Power（パワー）の5つです。英語が読みにくければ、「Pで始まる字の横は何色？」のように、頭文字で聞くと伝わります</li><li><strong>「その色は、点いたまま？チカチカしている？」</strong> 公式FAQでは、同じ色でも「点灯」と「点滅」で意味が違います</li></ol>
 <p>この3つが分かれば、次の表で、だいたいの見当がつきます。</p>
+<figure class="fig"><img src="../img/fig/jikka-wifi-tsunagaranai-1.png" alt="説明用の図：ランプが点いているか、何色か、点いたままかチカチカかの順に聞くと、早見表で見当がつきます" loading="lazy"><figcaption><span class="fig-tag">説明用の図</span>ランプが点いているか、何色か、点いたままかチカチカかの順に聞くと、早見表で見当がつきます</figcaption></figure>
 <p>こんな声をよく聞きます。「母に『ルーターのステータスランプ』と言っても通じなくて、お互い疲れてしまった」。カタカナの名前ではなく、<strong>「白い箱」「英語の字の横のランプ」「色」「チカチカ」</strong>という日常の言葉に置き換えると、電話がずっと楽になります。</p>
 <h2 id="s2">ランプの色で分かること｜公式FAQの早見表（Airターミナル6・5）</h2>
 <p>公式のよくあるご質問（Airターミナルのランプが正常に点灯しない場合）で確かめた内容を、電話で使いやすい形に並べ替えました。正常なら、電源を入れてしばらくすると5つすべてが点灯します。</p>
